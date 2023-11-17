@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iSpy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bEF-bC-q1b">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jason-leung-eciaAcxbMIY-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="yFU-Pp-SUM">
+                                        <rect key="frame" x="0.0" y="0.0" width="3648" height="5472"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yFU-Pp-SUM" firstAttribute="leading" secondItem="bEF-bC-q1b" secondAttribute="leading" id="E5D-fk-q6T"/>
+                                    <constraint firstAttribute="bottom" secondItem="yFU-Pp-SUM" secondAttribute="bottom" id="KbR-dJ-FPL"/>
+                                    <constraint firstAttribute="trailing" secondItem="yFU-Pp-SUM" secondAttribute="trailing" id="ZFa-h5-2j0"/>
+                                    <constraint firstItem="yFU-Pp-SUM" firstAttribute="top" secondItem="bEF-bC-q1b" secondAttribute="top" id="hXP-uF-Fna"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.15686275059999999" green="0.26666668059999998" blue="0.31372550129999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="bEF-bC-q1b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5uU-E4-Atw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bEF-bC-q1b" secondAttribute="trailing" id="67H-bk-YDC"/>
+                            <constraint firstItem="bEF-bC-q1b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Mcg-t0-3dG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bEF-bC-q1b" secondAttribute="bottom" id="qxc-wg-XRZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="yFU-Pp-SUM" id="jys-bj-LLp"/>
+                        <outlet property="scrollView" destination="bEF-bC-q1b" id="tcz-c4-3Vw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="4.9295774647887329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="jason-leung-eciaAcxbMIY-unsplash" width="3648" height="5472"/>
+    </resources>
+</document>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E378EB6C-06D8-4247-8C24-AC794AA0F029"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "751A4739-3622-455B-8070-A73176D7B397"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmployeeRoster/Controllers/EmployeeDetailTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "employeeTypeTableViewController(_:didSelect:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "751A4739-3622-455B-8070-A73176D7B397 - c0674e0fccc086ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmployeeRoster.EmployeeDetailTableViewController.employeeTypeTableViewController(_: EmployeeRoster.EmployeeTypeTableViewController, didSelect: EmployeeRoster.EmployeeType) -&gt; ()"
+                  moduleName = "EmployeeRoster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hunterjensen/Desktop/student%202/1%20-%20Tables%20and%20Persistence/9%20-%20Complex%20Input%20Screens/lab/EmployeeRoster/EmployeeRoster/Controllers/EmployeeDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "751A4739-3622-455B-8070-A73176D7B397 - c0674e0fccc086ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmployeeRoster.EmployeeDetailTableViewController.employeeTypeTableViewController(_: EmployeeRoster.EmployeeTypeTableViewController, didSelect: EmployeeRoster.EmployeeType) -&gt; ()"
+                  moduleName = "EmployeeRoster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hunterjensen/Desktop/student%202/1%20-%20Tables%20and%20Persistence/9%20-%20Complex%20Input%20Screens/lab/EmployeeRoster/EmployeeRoster/Controllers/EmployeeDetailTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "255EAB2C-0B81-4065-A4AE-80BA3A7E8B42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmployeeRoster/Controllers/EmployeeDetailTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "updateView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
